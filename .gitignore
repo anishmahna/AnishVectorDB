@@ -1,0 +1,40 @@
+# ── Compiled binaries ──────────────────────────────────────────────
+*.exe
+*.o
+*.out
+a.out
+db
+db.dSYM/
+
+# ── Build directories ───────────────────────────────────────────────
+build/
+bin/
+
+# ── IDE / Editor files ──────────────────────────────────────────────
+.vscode/
+.idea/
+*.user
+*.swp
+*.swo
+*~
+
+# ── macOS specific ──────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ── Xcode ───────────────────────────────────────────────────────────
+*.xcodeproj
+*.xcworkspace
+DerivedData/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+
+# ── Compiled output binary (Mac ARM64) ──────────────────────────────
+db
